@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Leak - Home</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="js/home.js"></script>
+</head>
+<body>
+  <h2>Leaked Student Data</h2>
+  <input type="text" id="searchBox" placeholder="Search by name or ID">
+  <div id="results"></div>
+  <div id="notFound" style="display:none;">
+    <p>No data found. Request new entry:</p>
+    <input type="text" id="reqName" placeholder="Victim Name">
+    <input type="text" id="reqId" placeholder="Victim PS ID">
+    <button onclick="requestData()">Request</button>
+  </div>
+</body>
+</html>
